@@ -1,0 +1,1237 @@
+admin@hmipiprod1:~ $ sudo apt-get update && sudo apt-get upgrade -y
+Get:1 http://raspbian.raspberrypi.org/raspbian bullseye InRelease [15.0 kB]
+Get:2 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf Packages [13.2 MB]
+Get:3 http://archive.raspberrypi.org/debian bullseye InRelease [23.6 kB]
+Get:4 http://archive.raspberrypi.org/debian bullseye/main armhf Packages [315 kB]
+Fetched 13.6 MB in 7s (1,932 kB/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following package was automatically installed and is no longer required:
+  libfuse2
+Use 'sudo apt autoremove' to remove it.
+The following packages will be upgraded:
+  curl git git-man libcurl3-gnutls libcurl4 libsox-fmt-alsa libsox-fmt-base libsox3 libtiff5 sox
+10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8,162 kB of archives.
+After this operation, 12.3 kB of additional disk space will be used.
+Get:1 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf curl armhf 7.74.0-1.3+deb11u7 [258 kB]
+Get:2 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libcurl4 armhf 7.74.0-1.3+deb11u7 [310 kB]
+Get:3 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf git-man all 1:2.30.2-1+deb11u2 [1,828 kB]
+Get:4 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libcurl3-gnutls armhf 7.74.0-1.3+deb11u7 [306 kB]
+Get:5 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf git armhf 1:2.30.2-1+deb11u2 [4,704 kB]
+Get:6 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf sox armhf 14.4.2+git20190427-2+deb11u1 [139 kB]
+Get:7 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libsox3 armhf 14.4.2+git20190427-2+deb11u1 [226 kB]
+Get:8 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libsox-fmt-base armhf 14.4.2+git20190427-2+deb11u1 [68.9 kB]
+Get:9 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libsox-fmt-alsa armhf 14.4.2+git20190427-2+deb11u1 [51.4 kB]
+Get:10 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libtiff5 armhf 4.2.0-1+deb11u4 [270 kB]
+Fetched 8,162 kB in 3s (3,139 kB/s)
+apt-listchanges: Reading changelogs...
+(Reading database ... 172062 files and directories currently installed.)
+Preparing to unpack .../0-curl_7.74.0-1.3+deb11u7_armhf.deb ...
+Unpacking curl (7.74.0-1.3+deb11u7) over (7.74.0-1.3+deb11u5) ...
+Preparing to unpack .../1-libcurl4_7.74.0-1.3+deb11u7_armhf.deb ...
+Unpacking libcurl4:armhf (7.74.0-1.3+deb11u7) over (7.74.0-1.3+deb11u5) ...
+Preparing to unpack .../2-git-man_1%3a2.30.2-1+deb11u2_all.deb ...
+Unpacking git-man (1:2.30.2-1+deb11u2) over (1:2.30.2-1+deb11u1) ...
+Preparing to unpack .../3-libcurl3-gnutls_7.74.0-1.3+deb11u7_armhf.deb ...
+Unpacking libcurl3-gnutls:armhf (7.74.0-1.3+deb11u7) over (7.74.0-1.3+deb11u5) ...
+Preparing to unpack .../4-git_1%3a2.30.2-1+deb11u2_armhf.deb ...
+Unpacking git (1:2.30.2-1+deb11u2) over (1:2.30.2-1+deb11u1) ...
+Preparing to unpack .../5-sox_14.4.2+git20190427-2+deb11u1_armhf.deb ...
+Unpacking sox (14.4.2+git20190427-2+deb11u1) over (14.4.2+git20190427-2) ...
+Preparing to unpack .../6-libsox3_14.4.2+git20190427-2+deb11u1_armhf.deb ...
+Unpacking libsox3:armhf (14.4.2+git20190427-2+deb11u1) over (14.4.2+git20190427-2) ...
+Preparing to unpack .../7-libsox-fmt-base_14.4.2+git20190427-2+deb11u1_armhf.deb ...
+Unpacking libsox-fmt-base:armhf (14.4.2+git20190427-2+deb11u1) over (14.4.2+git20190427-2) ...
+Preparing to unpack .../8-libsox-fmt-alsa_14.4.2+git20190427-2+deb11u1_armhf.deb ...
+Unpacking libsox-fmt-alsa:armhf (14.4.2+git20190427-2+deb11u1) over (14.4.2+git20190427-2) ...
+Preparing to unpack .../9-libtiff5_4.2.0-1+deb11u4_armhf.deb ...
+Unpacking libtiff5:armhf (4.2.0-1+deb11u4) over (4.2.0-1+deb11u3) ...
+Setting up libsox3:armhf (14.4.2+git20190427-2+deb11u1) ...
+Setting up libcurl3-gnutls:armhf (7.74.0-1.3+deb11u7) ...
+Setting up libsox-fmt-alsa:armhf (14.4.2+git20190427-2+deb11u1) ...
+Setting up libcurl4:armhf (7.74.0-1.3+deb11u7) ...
+Setting up git-man (1:2.30.2-1+deb11u2) ...
+Setting up libsox-fmt-base:armhf (14.4.2+git20190427-2+deb11u1) ...
+Setting up libtiff5:armhf (4.2.0-1+deb11u4) ...
+Setting up curl (7.74.0-1.3+deb11u7) ...
+Setting up git (1:2.30.2-1+deb11u2) ...
+Setting up sox (14.4.2+git20190427-2+deb11u1) ...
+Processing triggers for libc-bin (2.31-13+rpt2+rpi1+deb11u5) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for mailcap (3.69) ...
+admin@hmipiprod1:~ $ sudo apt install libpcsclite-dev pcscd pcsc-tools libssl-dev libengine-pkcs11-openssl autoconf libtool openssl -y
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+openssl is already the newest version (1.1.1n-0+deb11u4+rpt1).
+The following package was automatically installed and is no longer required:
+  libfuse2
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  automake autotools-dev libcairo-gobject-perl libcairo-perl libccid libextutils-depends-perl libextutils-pkgconfig-perl libglib-object-introspection-perl libglib-perl
+  libgtk3-perl libltdl-dev libpcsc-perl libsigsegv2 m4
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc gettext libfont-freetype-perl pcmciautils libxml-libxml-perl libtool-doc libssl-doc gfortran | fortran95-compiler gcj-jdk m4-doc
+The following NEW packages will be installed:
+  autoconf automake autotools-dev libcairo-gobject-perl libcairo-perl libccid libengine-pkcs11-openssl libextutils-depends-perl libextutils-pkgconfig-perl
+  libglib-object-introspection-perl libglib-perl libgtk3-perl libltdl-dev libpcsc-perl libpcsclite-dev libsigsegv2 libssl-dev libtool m4 pcsc-tools pcscd
+0 upgraded, 21 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5,048 kB of archives.
+After this operation, 15.9 MB of additional disk space will be used.
+Get:1 http://archive.raspberrypi.org/debian bullseye/main armhf libssl-dev armhf 1.1.1n-0+deb11u4+rpt1 [1,600 kB]
+Get:2 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libccid armhf 1.4.34-1 [330 kB]
+Get:3 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf pcscd armhf 1.9.1-1 [87.6 kB]
+Get:4 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libsigsegv2 armhf 2.13-1 [34.3 kB]
+Get:5 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf m4 armhf 1.4.18-5 [186 kB]
+Get:6 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf autoconf all 2.69-14 [313 kB]
+Get:7 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf autotools-dev all 20180224.1+nmu1 [77.1 kB]
+Get:8 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf automake all 1:1.16.3-2 [814 kB]
+Get:9 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libextutils-depends-perl all 0.8000-1 [18.9 kB]
+Get:10 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libextutils-pkgconfig-perl all 1.16-1.1 [10.9 kB]
+Get:11 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libcairo-perl armhf 1.109-1 [90.2 kB]
+Get:12 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libglib-perl armhf 3:1.329.3-1+b1 [332 kB]
+Get:13 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libcairo-gobject-perl armhf 1.005-2+b2 [11.8 kB]
+Get:14 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libengine-pkcs11-openssl armhf 0.4.11-1 [29.9 kB]
+Get:15 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libglib-object-introspection-perl armhf 0.049-1+b1 [63.5 kB]
+Get:16 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libgtk3-perl all 0.038-1 [34.7 kB]
+Get:17 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libltdl-dev armhf 2.4.6-15 [159 kB]
+Get:18 http://raspbian.raspberrypi.org/raspbian bullseye/main armhf libpcsc-perl armhf 1.4.14-5+b1 [45.9 kB]
+Get:19 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libpcsclite-dev armhf 1.9.1-1 [75.6 kB]
+Get:20 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf libtool all 2.4.6-15 [513 kB]
+Get:21 http://mirror1.hs-esslingen.de/pub/Mirrors/archive.raspbian.org/raspbian bullseye/main armhf pcsc-tools armhf 1.5.7-1 [220 kB]
+Fetched 5,048 kB in 4s (1,336 kB/s)
+Selecting previously unselected package libccid.
+(Reading database ... 172062 files and directories currently installed.)
+Preparing to unpack .../00-libccid_1.4.34-1_armhf.deb ...
+Unpacking libccid (1.4.34-1) ...
+Selecting previously unselected package pcscd.
+Preparing to unpack .../01-pcscd_1.9.1-1_armhf.deb ...
+Unpacking pcscd (1.9.1-1) ...
+Selecting previously unselected package libsigsegv2:armhf.
+Preparing to unpack .../02-libsigsegv2_2.13-1_armhf.deb ...
+Unpacking libsigsegv2:armhf (2.13-1) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../03-m4_1.4.18-5_armhf.deb ...
+Unpacking m4 (1.4.18-5) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../04-autoconf_2.69-14_all.deb ...
+Unpacking autoconf (2.69-14) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../05-autotools-dev_20180224.1+nmu1_all.deb ...
+Unpacking autotools-dev (20180224.1+nmu1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../06-automake_1%3a1.16.3-2_all.deb ...
+Unpacking automake (1:1.16.3-2) ...
+Selecting previously unselected package libextutils-depends-perl.
+Preparing to unpack .../07-libextutils-depends-perl_0.8000-1_all.deb ...
+Unpacking libextutils-depends-perl (0.8000-1) ...
+Selecting previously unselected package libextutils-pkgconfig-perl.
+Preparing to unpack .../08-libextutils-pkgconfig-perl_1.16-1.1_all.deb ...
+Unpacking libextutils-pkgconfig-perl (1.16-1.1) ...
+Selecting previously unselected package libcairo-perl:armhf.
+Preparing to unpack .../09-libcairo-perl_1.109-1_armhf.deb ...
+Unpacking libcairo-perl:armhf (1.109-1) ...
+Selecting previously unselected package libglib-perl:armhf.
+Preparing to unpack .../10-libglib-perl_3%3a1.329.3-1+b1_armhf.deb ...
+Unpacking libglib-perl:armhf (3:1.329.3-1+b1) ...
+Selecting previously unselected package libcairo-gobject-perl.
+Preparing to unpack .../11-libcairo-gobject-perl_1.005-2+b2_armhf.deb ...
+Unpacking libcairo-gobject-perl (1.005-2+b2) ...
+Selecting previously unselected package libengine-pkcs11-openssl:armhf.
+Preparing to unpack .../12-libengine-pkcs11-openssl_0.4.11-1_armhf.deb ...
+Unpacking libengine-pkcs11-openssl:armhf (0.4.11-1) ...
+Selecting previously unselected package libglib-object-introspection-perl.
+Preparing to unpack .../13-libglib-object-introspection-perl_0.049-1+b1_armhf.deb ...
+Unpacking libglib-object-introspection-perl (0.049-1+b1) ...
+Selecting previously unselected package libgtk3-perl.
+Preparing to unpack .../14-libgtk3-perl_0.038-1_all.deb ...
+Unpacking libgtk3-perl (0.038-1) ...
+Selecting previously unselected package libltdl-dev:armhf.
+Preparing to unpack .../15-libltdl-dev_2.4.6-15_armhf.deb ...
+Unpacking libltdl-dev:armhf (2.4.6-15) ...
+Selecting previously unselected package libpcsc-perl.
+Preparing to unpack .../16-libpcsc-perl_1.4.14-5+b1_armhf.deb ...
+Unpacking libpcsc-perl (1.4.14-5+b1) ...
+Selecting previously unselected package libpcsclite-dev:armhf.
+Preparing to unpack .../17-libpcsclite-dev_1.9.1-1_armhf.deb ...
+Unpacking libpcsclite-dev:armhf (1.9.1-1) ...
+Selecting previously unselected package libssl-dev:armhf.
+Preparing to unpack .../18-libssl-dev_1.1.1n-0+deb11u4+rpt1_armhf.deb ...
+Unpacking libssl-dev:armhf (1.1.1n-0+deb11u4+rpt1) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../19-libtool_2.4.6-15_all.deb ...
+Unpacking libtool (2.4.6-15) ...
+Selecting previously unselected package pcsc-tools.
+Preparing to unpack .../20-pcsc-tools_1.5.7-1_armhf.deb ...
+Unpacking pcsc-tools (1.5.7-1) ...
+Setting up libccid (1.4.34-1) ...
+Setting up libextutils-pkgconfig-perl (1.16-1.1) ...
+Setting up libpcsc-perl (1.4.14-5+b1) ...
+Setting up pcscd (1.9.1-1) ...
+Created symlink /etc/systemd/system/sockets.target.wants/pcscd.socket → /lib/systemd/system/pcscd.socket.
+pcscd.service is a disabled or a static unit, not starting it.
+Setting up libengine-pkcs11-openssl:armhf (0.4.11-1) ...
+Setting up libextutils-depends-perl (0.8000-1) ...
+Setting up autotools-dev (20180224.1+nmu1) ...
+Setting up libsigsegv2:armhf (2.13-1) ...
+Setting up libssl-dev:armhf (1.1.1n-0+deb11u4+rpt1) ...
+Setting up libpcsclite-dev:armhf (1.9.1-1) ...
+Setting up libcairo-perl:armhf (1.109-1) ...
+Setting up pcsc-tools (1.5.7-1) ...
+Setting up libglib-perl:armhf (3:1.329.3-1+b1) ...
+Setting up libtool (2.4.6-15) ...
+Setting up m4 (1.4.18-5) ...
+Setting up autoconf (2.69-14) ...
+Setting up libcairo-gobject-perl (1.005-2+b2) ...
+Setting up automake (1:1.16.3-2) ...
+update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode
+Setting up libglib-object-introspection-perl (0.049-1+b1) ...
+Setting up libltdl-dev:armhf (2.4.6-15) ...
+Setting up libgtk3-perl (0.038-1) ...
+Processing triggers for gnome-menus (3.36.0-1) ...
+Processing triggers for libc-bin (2.31-13+rpt2+rpi1+deb11u5) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for install-info (6.7.0.dfsg.2-6) ...
+Processing triggers for mailcap (3.69) ...
+Processing triggers for desktop-file-utils (0.26-1) ...
+admin@hmipiprod1:~ $ sudo wget https://github.com/swissbit-eis/OpenSC/archive/refs/tags/0.23.0-swissbit.tar.gz
+--2023-02-28 13:58:56--  https://github.com/swissbit-eis/OpenSC/archive/refs/tags/0.23.0-swissbit.tar.gz
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/swissbit-eis/OpenSC/tar.gz/refs/tags/0.23.0-swissbit [following]
+--2023-02-28 13:58:57--  https://codeload.github.com/swissbit-eis/OpenSC/tar.gz/refs/tags/0.23.0-swissbit
+Resolving codeload.github.com (codeload.github.com)... 140.82.121.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.121.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘0.23.0-swissbit.tar.gz’
+
+0.23.0-swissbit.tar.gz                          [  <=>                                                                                       ]   1.86M  5.47MB/s    in 0.3s
+
+2023-02-28 13:58:58 (5.47 MB/s) - ‘0.23.0-swissbit.tar.gz’ saved [1954619]
+
+admin@hmipiprod1:~ $ tar -xf 0.23.0-swissbit.tar.gz
+admin@hmipiprod1:~ $ cd OpenSC-0.23.0-swissbit/
+admin@hmipiprod1:~/OpenSC-0.23.0-swissbit $ sudo ./bootstrap
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+libtoolize: Remember to add 'LT_INIT' to configure.ac.
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:60: installing './compile'
+configure.ac:59: installing './config.guess'
+configure.ac:59: installing './config.sub'
+configure.ac:30: installing './install-sh'
+configure.ac:30: installing './missing'
+src/common/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+autoreconf: Leaving directory `.'
+admin@hmipiprod1:~/OpenSC-0.23.0-swissbit $ ./configure --prefix=/usr
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU Objective C compiler... no
+checking whether gcc accepts -g... no
+checking dependency style of gcc... gcc3
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking whether to build with code coverage support... no
+checking whether C compiler accepts -Wunknown-warning-option... no
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether make sets $(MAKE)... (cached) yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for windres... no
+checking for xsltproc... no
+checking for git... git
+checking xsl-stylesheets... no
+checking git checkout... no
+checking for inline... inline
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking whether to enable assertions... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for stdlib.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking for an ANSI C-conforming const... yes
+checking for uid_t in sys/types.h... yes
+checking for size_t... yes
+checking for error_at_line... yes
+checking whether lstat correctly handles trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking for getpass... yes
+checking for gettimeofday... yes
+checking for getline... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for memset_s... no
+checking for explicit_bzero... yes
+checking for strnlen... yes
+checking for sigaction... yes
+checking size of void *... 4
+checking for socket in -lsocket... no
+checking for library containing dlopen... -ldl
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for gio-2.0... no
+checking gio/gio.h usability... no
+checking gio/gio.h presence... no
+checking for gio/gio.h... no
+configure: WARNING: glib2 headers not found
+checking for g_application_send_notification... configure: WARNING: Cannot link against glib2
+checking for cmocka >= 1.0.1... no
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking for cmocka.h... no
+checking for inflate in -lz... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for readline in -lreadline... no
+checking for readline in -lreadline... no
+checking for readline in -lreadline... no
+checking readline/readline.h usability... no
+checking readline/readline.h presence... no
+checking for readline/readline.h... no
+checking for libcrypto >= 1.1.1... yes
+checking openssl/crypto.h usability... yes
+checking openssl/crypto.h presence... yes
+checking for openssl/crypto.h... yes
+configure: WARNING: libeac not found by pkg-config
+checking eac/eac.h usability... no
+checking eac/eac.h presence... no
+checking for eac/eac.h... no
+configure: WARNING: OpenPACE headers not found
+checking for EAC_CTX_init_pace... configure: WARNING: Cannot link against libeac
+checking for EAC_OBJ_nid2obj... no
+Package libeac was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libeac.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libeac' found
+configure: WARNING: use --enable-cvcdir=DIR
+Package libeac was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libeac.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libeac' found
+Package libeac was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libeac.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libeac' found
+configure: WARNING: use --enable-x509dir=DIR
+checking for libpcsclite >= 1.8.22... yes
+checking winscard.h usability... yes
+checking winscard.h presence... no
+configure: WARNING: winscard.h: accepted by the compiler, rejected by the preprocessor!
+configure: WARNING: winscard.h: proceeding with the compiler's result
+checking for winscard.h... yes
+checking pcsclite.h usability... yes
+checking pcsclite.h presence... no
+configure: WARNING: pcsclite.h: accepted by the compiler, rejected by the preprocessor!
+configure: WARNING: pcsclite.h: proceeding with the compiler's result
+checking for pcsclite.h... yes
+completion detect
+checking for bash-completion >= 2.0... yes
+checking for gengetopt... not found
+checking for clang-tidy... not found
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for getopt_long... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/tools/Makefile
+config.status: creating doc/files/Makefile
+config.status: creating etc/Makefile
+config.status: creating tests/Makefile
+config.status: creating src/Makefile
+config.status: creating src/common/Makefile
+config.status: creating src/ui/Makefile
+config.status: creating src/libopensc/Makefile
+config.status: creating src/sm/Makefile
+config.status: creating src/pkcs11/Makefile
+config.status: creating src/pkcs11/versioninfo-pkcs11.rc
+config.status: creating src/pkcs11/versioninfo-pkcs11-spy.rc
+config.status: creating src/pkcs11/opensc-pkcs11.pc
+config.status: creating src/pkcs15init/Makefile
+config.status: creating src/scconf/Makefile
+config.status: creating src/tests/Makefile
+config.status: creating src/tests/regression/Makefile
+config.status: creating src/tests/p11test/Makefile
+config.status: creating src/tests/fuzzing/Makefile
+config.status: creating src/tests/unittests/Makefile
+config.status: creating src/tools/Makefile
+config.status: creating src/tools/versioninfo-tools.rc
+config.status: creating src/tools/versioninfo-opensc-notify.rc
+config.status: creating src/smm/Makefile
+config.status: creating src/minidriver/Makefile
+config.status: creating src/minidriver/versioninfo-minidriver.rc
+config.status: creating src/minidriver/opensc-minidriver.inf
+config.status: creating win32/Makefile
+config.status: creating win32/versioninfo.rc
+config.status: creating win32/versioninfo-customactions.rc
+config.status: creating win32/winconfig.h
+config.status: creating win32/OpenSC.iss
+config.status: creating win32/OpenSC.wxs
+config.status: creating MacOSX/Makefile
+config.status: creating MacOSX/build-package
+config.status: creating MacOSX/Distribution.xml
+config.status: creating MacOSX/resources/Welcome.html
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+OpenSC has been configured with the following options:
+
+
+Version:                 0.23.0-swissbit
+Version fix:             0
+Version revision:        0
+Git revision:            No Git revision info available
+
+Copyright:               OpenSC Project
+Company:                 OpenSC Project
+Company URL:             https://github.com/OpenSC
+Comments:                Provided under the terms of the GNU Lesser General Public License (LGPLv2.1+).
+Product name:            OpenSC smartcard framework
+Product updates:         https://github.com/OpenSC/OpenSC/releases
+Product URL:             https://github.com/OpenSC/OpenSC
+
+User binaries:           /usr/bin
+Configuration files:     /usr/etc
+Bash completion:         /usr/share/bash-completion/completions
+XSL stylesheets:         no
+
+man support:             no
+doc support:             no
+thread locking support:  yes
+zlib support:            yes
+readline support:        no
+OpenSSL support:         yes
+OpenSSL secure memory:   no
+PC/SC support:           yes
+CryptoTokenKit support:  no
+OpenCT support:          no
+CT-API support:          no
+minidriver support:      no
+SM support:              yes
+SM default module:       libsmm-local.so
+SM default path:         /usr/lib
+DNIe UI support:         no
+Notification support:    no
+Code coverage:           no
+
+PC/SC default provider:  libpcsclite.so.1
+PKCS11 default provider: /usr/lib/opensc-pkcs11.so
+PKCS11 onepin provider:  /usr/lib/onepin-opensc-pkcs11.so
+
+Host:                    armv7l-unknown-linux-gnueabihf
+Compiler:                gcc
+Preprocessor flags:
+Compiler flags:          -Wall -Wextra -Wno-unused-parameter -Werror -Wstrict-aliasing=2 -g -O2
+Linker flags:
+Libraries:               -ldl
+
+READLINE_CFLAGS:
+READLINE_LIBS:
+ZLIB_CFLAGS:
+ZLIB_LIBS:               -lz
+OPENSSL_CFLAGS:
+OPENSSL_LIBS:            -lcrypto
+OPENPACE_CFLAGS:
+OPENPACE_LIBS:
+OPENCT_CFLAGS:
+OPENCT_LIBS:
+PCSC_CFLAGS:             -pthread -I/usr/include/PCSC
+CRYPTOTOKENKIT_CFLAGS:
+GIO2_CFLAGS:
+GIO2_LIBS:
+FUZZING_LIBS:
+
+admin@hmipiprod1:~/OpenSC-0.23.0-swissbit $ sudo make -j4 install
+Making install in etc
+make[1]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/etc'
+  GEN      opensc.conf.example
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/etc'
+make  install-exec-hook
+make[2]: Nothing to be done for 'install-data-am'.
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/etc'
+  GEN      opensc.conf.example
+/usr/bin/mkdir -p "/usr/etc"
+if [ -f "/usr/etc/opensc.conf" ]; then \
+	/usr/bin/install -c -m 644 ./opensc.conf "/usr/etc/opensc.conf.new"; \
+else \
+	/usr/bin/install -c -m 644 ./opensc.conf "/usr/etc/opensc.conf"; \
+fi
+/usr/bin/mkdir -p "/usr/share/doc/opensc"
+/usr/bin/install -c -m 644 opensc.conf.example "/usr/share/doc/opensc/opensc.conf";
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/etc'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/etc'
+make[1]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/etc'
+Making install in src
+make[1]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src'
+Making install in common
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/common'
+  CC       compat_getopt_main.o
+  CC       compat_dummy.lo
+  CC       compat_strlcat.lo
+  CC       compat_strlcpy.lo
+  CC       compat_strnlen.lo
+  CC       compat_getpass.lo
+  CC       compat_getopt.lo
+  CC       compat_report_rangecheckfailure.lo
+  CC       compat___iob_func.lo
+  CC       simclist.lo
+  CC       libpkcs11.lo
+  CC       libscdl.lo
+  CCLD     libscdl.la
+  CCLD     libpkcs11.la
+  CCLD     libcompat.la
+  CCLD     compat_getopt_main
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/common'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/common'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/common'
+Making install in scconf
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/scconf'
+  CC       scconf.lo
+  CC       parse.lo
+  CC       write.lo
+  CC       sclex.lo
+  CCLD     libscconf.la
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/scconf'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/scconf'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/scconf'
+Making install in ui
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/ui'
+  CC       strings.lo
+  CC       notify.lo
+  CCLD     libnotify.la
+  CCLD     libstrings.la
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/ui'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/ui'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/ui'
+Making install in pkcs15init
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs15init'
+  CC       pkcs15-lib.lo
+  CC       profile.lo
+  CC       pkcs15-westcos.lo
+  CC       pkcs15-gpk.lo
+  CC       pkcs15-cflex.lo
+  CC       pkcs15-cardos.lo
+  CC       pkcs15-starcos.lo
+  CC       pkcs15-setcos.lo
+  CC       pkcs15-incrypto34.lo
+  CC       pkcs15-muscle.lo
+  CC       pkcs15-asepcos.lo
+  CC       pkcs15-rutoken.lo
+  CC       pkcs15-entersafe.lo
+  CC       pkcs15-epass2003.lo
+  CC       pkcs15-rtecp.lo
+  CC       pkcs15-myeid.lo
+  CC       pkcs15-oberthur.lo
+  CC       pkcs15-oberthur-awp.lo
+  CC       pkcs15-authentic.lo
+  CC       pkcs15-iasecc.lo
+  CC       pkcs15-openpgp.lo
+  CC       pkcs15-sc-hsm.lo
+  CC       pkcs15-isoApplet.lo
+  CC       pkcs15-gids.lo
+  CCLD     libpkcs15init.la
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs15init'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/opensc'
+ /usr/bin/install -c -m 644 cyberflex.profile flex.profile gpk.profile cardos.profile incrypto34.profile oberthur.profile starcos.profile setcos.profile pkcs15.profile muscle.profile rutoken.profile asepcos.profile entersafe.profile epass2003.profile rutoken_ecp.profile rutoken_lite.profile westcos.profile myeid.profile authentic.profile iasecc.profile ias_adele_admin1.profile ias_adele_admin2.profile ias_adele_common.profile iasecc_generic_pki.profile iasecc_admin_eid.profile iasecc_generic_oberthur.profile openpgp.profile sc-hsm.profile isoApplet.profile gids.profile '/usr/share/opensc'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs15init'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs15init'
+Making install in sm
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/sm'
+  CC       sm-iso.lo
+  CC       libsmeac_la-sm-eac.lo
+  CC       sm-common.lo
+  CCLD     libsm.la
+  CCLD     libsmiso.la
+  CCLD     libsmeac.la
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/sm'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/sm'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/sm'
+Making install in libopensc
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/libopensc'
+  CC       libopensc_la-sc.lo
+  CC       libopensc_la-ctx.lo
+  CC       libopensc_la-log.lo
+  CC       libopensc_la-errors.lo
+  CC       libopensc_la-asn1.lo
+  CC       libopensc_la-base64.lo
+  CC       libopensc_la-sec.lo
+  CC       libopensc_la-card.lo
+  CC       libopensc_la-iso7816.lo
+  CC       libopensc_la-dir.lo
+  CC       libopensc_la-ef-atr.lo
+  CC       libopensc_la-ef-gdo.lo
+  CC       libopensc_la-padding.lo
+  CC       libopensc_la-apdu.lo
+  CC       libopensc_la-simpletlv.lo
+  CC       libopensc_la-gp.lo
+  CC       libopensc_la-pkcs15.lo
+  CC       libopensc_la-pkcs15-cert.lo
+  CC       libopensc_la-pkcs15-data.lo
+  CC       libopensc_la-pkcs15-pin.lo
+  CC       libopensc_la-pkcs15-prkey.lo
+  CC       libopensc_la-pkcs15-pubkey.lo
+  CC       libopensc_la-pkcs15-skey.lo
+  CC       libopensc_la-pkcs15-sec.lo
+  CC       libopensc_la-pkcs15-algo.lo
+  CC       libopensc_la-pkcs15-cache.lo
+  CC       libopensc_la-pkcs15-syn.lo
+  CC       libopensc_la-pkcs15-emulator-filter.lo
+  CC       libopensc_la-muscle.lo
+  CC       libopensc_la-muscle-filesystem.lo
+  CC       libopensc_la-ctbcs.lo
+  CC       libopensc_la-reader-ctapi.lo
+  CC       libopensc_la-reader-pcsc.lo
+  CC       libopensc_la-reader-openct.lo
+  CC       libopensc_la-reader-tr03119.lo
+  CC       libopensc_la-card-setcos.lo
+  CC       libopensc_la-card-flex.lo
+  CC       libopensc_la-card-gpk.lo
+  CC       libopensc_la-card-cardos.lo
+  CC       libopensc_la-card-tcos.lo
+  CC       libopensc_la-card-default.lo
+  CC       libopensc_la-card-mcrd.lo
+  CC       libopensc_la-card-starcos.lo
+  CC       libopensc_la-card-openpgp.lo
+  CC       libopensc_la-card-oberthur.lo
+  CC       libopensc_la-card-belpic.lo
+  CC       libopensc_la-card-atrust-acos.lo
+  CC       libopensc_la-card-entersafe.lo
+  CC       libopensc_la-card-epass2003.lo
+  CC       libopensc_la-card-coolkey.lo
+  CC       libopensc_la-card-incrypto34.lo
+  CC       libopensc_la-card-piv.lo
+  CC       libopensc_la-card-cac-common.lo
+  CC       libopensc_la-card-cac.lo
+  CC       libopensc_la-card-cac1.lo
+  CC       libopensc_la-card-muscle.lo
+  CC       libopensc_la-card-asepcos.lo
+  CC       libopensc_la-card-akis.lo
+  CC       libopensc_la-card-gemsafeV1.lo
+  CC       libopensc_la-card-rutoken.lo
+  CC       libopensc_la-card-rtecp.lo
+  CC       libopensc_la-card-westcos.lo
+  CC       libopensc_la-card-myeid.lo
+  CC       libopensc_la-card-itacns.lo
+  CC       libopensc_la-card-authentic.lo
+  CC       libopensc_la-card-iasecc.lo
+  CC       libopensc_la-iasecc-sdo.lo
+  CC       libopensc_la-iasecc-sm.lo
+  CC       libopensc_la-card-sc-hsm.lo
+  CC       libopensc_la-card-dnie.lo
+  CC       libopensc_la-cwa14890.lo
+  CC       libopensc_la-cwa-dnie.lo
+  CC       libopensc_la-card-isoApplet.lo
+  CC       libopensc_la-card-masktech.lo
+  CC       libopensc_la-card-gids.lo
+  CC       libopensc_la-card-jpki.lo
+  CC       libopensc_la-card-npa.lo
+  CC       libopensc_la-card-esteid2018.lo
+  CC       libopensc_la-card-idprime.lo
+  CC       libopensc_la-card-edo.lo
+  CC       libopensc_la-card-nqApplet.lo
+  CC       libopensc_la-pkcs15-openpgp.lo
+  CC       libopensc_la-pkcs15-starcert.lo
+  CC       libopensc_la-pkcs15-cardos.lo
+  CC       libopensc_la-pkcs15-tcos.lo
+  CC       libopensc_la-pkcs15-esteid.lo
+  CC       libopensc_la-pkcs15-gemsafeGPK.lo
+  CC       libopensc_la-pkcs15-actalis.lo
+  CC       libopensc_la-pkcs15-atrust-acos.lo
+  CC       libopensc_la-pkcs15-tccardos.lo
+  CC       libopensc_la-pkcs15-piv.lo
+  CC       libopensc_la-pkcs15-cac.lo
+  CC       libopensc_la-pkcs15-esinit.lo
+  CC       libopensc_la-pkcs15-westcos.lo
+  CC       libopensc_la-pkcs15-pteid.lo
+  CC       libopensc_la-pkcs15-oberthur.lo
+  CC       libopensc_la-pkcs15-itacns.lo
+  CC       libopensc_la-pkcs15-gemsafeV1.lo
+  CC       libopensc_la-pkcs15-sc-hsm.lo
+  CC       libopensc_la-pkcs15-coolkey.lo
+  CC       libopensc_la-pkcs15-din-66291.lo
+  CC       libopensc_la-pkcs15-idprime.lo
+  CC       libopensc_la-pkcs15-nqApplet.lo
+  CC       libopensc_la-pkcs15-dnie.lo
+  CC       libopensc_la-pkcs15-gids.lo
+  CC       libopensc_la-pkcs15-iasecc.lo
+  CC       libopensc_la-pkcs15-jpki.lo
+  CC       libopensc_la-pkcs15-esteid2018.lo
+  CC       libopensc_la-pkcs15-starcos-esign.lo
+  CC       libopensc_la-compression.lo
+  CC       libopensc_la-sm.lo
+  CC       libopensc_la-aux-data.lo
+  OBJCLD   libopensc.la
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/libopensc'
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libopensc.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libopensc.so.8.0.1 /usr/lib/libopensc.so.8.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libopensc.so.8.0.1 libopensc.so.8 || { rm -f libopensc.so.8 && ln -s libopensc.so.8.0.1 libopensc.so.8; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libopensc.so.8.0.1 libopensc.so || { rm -f libopensc.so && ln -s libopensc.so.8.0.1 libopensc.so; }; })
+libtool: install: /usr/bin/install -c .libs/libopensc.lai /usr/lib/libopensc.la
+libtool: install: /usr/bin/install -c .libs/libopensc.a /usr/lib/libopensc.a
+libtool: install: chmod 644 /usr/lib/libopensc.a
+libtool: install: ranlib /usr/lib/libopensc.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/libopensc'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/libopensc'
+Making install in pkcs11
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs11'
+  CC       opensc_pkcs11_la-pkcs11-global.lo
+  CC       opensc_pkcs11_la-pkcs11-session.lo
+  CC       opensc_pkcs11_la-pkcs11-object.lo
+  CC       opensc_pkcs11_la-misc.lo
+  CC       opensc_pkcs11_la-slot.lo
+  CC       opensc_pkcs11_la-mechanism.lo
+  CC       opensc_pkcs11_la-openssl.lo
+  CC       opensc_pkcs11_la-framework-pkcs15.lo
+  CC       opensc_pkcs11_la-framework-pkcs15init.lo
+  CC       opensc_pkcs11_la-debug.lo
+  CC       opensc_pkcs11_la-pkcs11-display.lo
+  CC       pkcs11_spy_la-pkcs11-spy.lo
+  CC       pkcs11_spy_la-pkcs11-display.lo
+  CC       onepin_opensc_pkcs11_la-pkcs11-global.lo
+  CC       onepin_opensc_pkcs11_la-pkcs11-session.lo
+  CC       onepin_opensc_pkcs11_la-pkcs11-object.lo
+  CC       onepin_opensc_pkcs11_la-misc.lo
+  CC       onepin_opensc_pkcs11_la-slot.lo
+  CC       onepin_opensc_pkcs11_la-mechanism.lo
+  CC       onepin_opensc_pkcs11_la-openssl.lo
+  CC       onepin_opensc_pkcs11_la-framework-pkcs15.lo
+  CC       onepin_opensc_pkcs11_la-framework-pkcs15init.lo
+  CC       onepin_opensc_pkcs11_la-debug.lo
+  CC       onepin_opensc_pkcs11_la-pkcs11-display.lo
+  CCLD     pkcs11-spy.la
+  CCLD     opensc-pkcs11.la
+  CCLD     onepin-opensc-pkcs11.la
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs11'
+ /usr/bin/mkdir -p '/usr/lib'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   opensc-pkcs11.la pkcs11-spy.la onepin-opensc-pkcs11.la '/usr/lib'
+ /usr/bin/install -c -m 644 opensc-pkcs11.pc '/usr/lib/pkgconfig'
+libtool: warning: relinking 'opensc-pkcs11.la'
+libtool: install: (cd /home/admin/OpenSC-0.23.0-swissbit/src/pkcs11; /bin/bash "/home/admin/OpenSC-0.23.0-swissbit/libtool"  --silent --tag CC --mode=relink gcc -pthread -DPKCS11_THREAD_LOCKING -Wall -Wextra -Wno-unused-parameter -Werror -Wstrict-aliasing=2 -g -O2 -export-symbols ./pkcs11.exports -module -shared -avoid-version -no-undefined -o opensc-pkcs11.la -rpath /usr/lib opensc_pkcs11_la-pkcs11-global.lo opensc_pkcs11_la-pkcs11-session.lo opensc_pkcs11_la-pkcs11-object.lo opensc_pkcs11_la-misc.lo opensc_pkcs11_la-slot.lo opensc_pkcs11_la-mechanism.lo opensc_pkcs11_la-openssl.lo opensc_pkcs11_la-framework-pkcs15.lo opensc_pkcs11_la-framework-pkcs15init.lo opensc_pkcs11_la-debug.lo opensc_pkcs11_la-pkcs11-display.lo ../../src/libopensc/libopensc.la ../../src/common/libscdl.la ../../src/common/libcompat.la -lcrypto -ldl )
+libtool: install: /usr/bin/install -c .libs/opensc-pkcs11.soT /usr/lib/opensc-pkcs11.so
+libtool: install: /usr/bin/install -c .libs/opensc-pkcs11.lai /usr/lib/opensc-pkcs11.la
+libtool: install: /usr/bin/install -c .libs/pkcs11-spy.so /usr/lib/pkcs11-spy.so
+libtool: install: /usr/bin/install -c .libs/pkcs11-spy.lai /usr/lib/pkcs11-spy.la
+libtool: warning: relinking 'onepin-opensc-pkcs11.la'
+libtool: install: (cd /home/admin/OpenSC-0.23.0-swissbit/src/pkcs11; /bin/bash "/home/admin/OpenSC-0.23.0-swissbit/libtool"  --silent --tag CC --mode=relink gcc -DMODULE_APP_NAME=\"onepin-opensc-pkcs11\" -pthread -DPKCS11_THREAD_LOCKING -Wall -Wextra -Wno-unused-parameter -Werror -Wstrict-aliasing=2 -g -O2 -export-symbols ./pkcs11.exports -module -shared -avoid-version -no-undefined -o onepin-opensc-pkcs11.la -rpath /usr/lib onepin_opensc_pkcs11_la-pkcs11-global.lo onepin_opensc_pkcs11_la-pkcs11-session.lo onepin_opensc_pkcs11_la-pkcs11-object.lo onepin_opensc_pkcs11_la-misc.lo onepin_opensc_pkcs11_la-slot.lo onepin_opensc_pkcs11_la-mechanism.lo onepin_opensc_pkcs11_la-openssl.lo onepin_opensc_pkcs11_la-framework-pkcs15.lo onepin_opensc_pkcs11_la-framework-pkcs15init.lo onepin_opensc_pkcs11_la-debug.lo onepin_opensc_pkcs11_la-pkcs11-display.lo ../../src/libopensc/libopensc.la ../../src/common/libscdl.la ../../src/common/libcompat.la -lcrypto -ldl )
+libtool: install: /usr/bin/install -c .libs/onepin-opensc-pkcs11.soT /usr/lib/onepin-opensc-pkcs11.so
+libtool: install: /usr/bin/install -c .libs/onepin-opensc-pkcs11.lai /usr/lib/onepin-opensc-pkcs11.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-exec-hook
+make[4]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs11'
+/usr/bin/mkdir -p "/usr/lib/pkcs11"
+for l in opensc-pkcs11.so onepin-opensc-pkcs11.so pkcs11-spy.so; do \
+	rm -f "/usr/lib/pkcs11/$l"; \
+	ln -s ../$l "/usr/lib/pkcs11/$l"; \
+done
+make[4]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs11'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs11'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/pkcs11'
+Making install in tools
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tools'
+  CC       opensc-tool.o
+  CC       util.o
+  CC       opensc-explorer.o
+  CC       opensc_notify-opensc-notify.o
+  CC       opensc_notify-opensc-notify-cmdline.o
+  CC       pkcs15-tool.o
+  CC       pkcs15-crypt.o
+  CC       pkcs11_tool-pkcs11-tool.o
+  CC       pkcs11_tool-util.o
+  CC       pkcs11_register-pkcs11-register.o
+  CC       pkcs11_register-fread_to_eof.o
+  CC       pkcs11_register-pkcs11-register-cmdline.o
+  CC       cardos-tool.o
+  CC       eidenv.o
+  CC       openpgp-tool.o
+  CC       openpgp-tool-helpers.o
+  CC       iasecc-tool.o
+  CC       egk_tool-egk-tool.o
+  CC       egk_tool-util.o
+  CC       egk_tool-egk-tool-cmdline.o
+  CC       opensc_asn1-opensc-asn1.o
+  CC       opensc_asn1-fread_to_eof.o
+  CC       opensc_asn1-opensc-asn1-cmdline.o
+  CC       goid_tool-goid-tool.o
+  CC       goid_tool-util.o
+  CC       goid_tool-fread_to_eof.o
+  CC       goid_tool-goid-tool-cmdline.o
+  CC       cryptoflex-tool.o
+  CC       pkcs15-init.o
+  CC       netkey-tool.o
+  CC       piv-tool.o
+  CC       westcos-tool.o
+  CC       sc-hsm-tool.o
+  CC       fread_to_eof.o
+  CC       dnie-tool.o
+  CC       gids-tool.o
+  CC       npa_tool-npa-tool.o
+  CC       npa_tool-fread_to_eof.o
+  CC       npa_tool-util.o
+  CC       npa_tool-npa-tool-cmdline.o
+  CC       sceac_example-sceac-example.o
+  GEN      org.opensc.notify.desktop
+  GEN      org.opensc-project.mac.pkcs11-register.plist
+  GEN      org.opensc-project.mac.opensc-notify.plist
+  GEN      pkcs11-register.desktop
+  CCLD     opensc-tool
+  CCLD     opensc-explorer
+  CCLD     opensc-notify
+  CC       ../pkcs11/pkcs11-display.o
+  CCLD     pkcs15-crypt
+  CCLD     pkcs11-tool
+  CCLD     pkcs11-register
+  CCLD     cardos-tool
+  CCLD     eidenv
+  CCLD     openpgp-tool
+  CCLD     iasecc-tool
+  CCLD     egk-tool
+  CCLD     opensc-asn1
+  CCLD     goid-tool
+  CCLD     cryptoflex-tool
+  CCLD     pkcs15-init
+  CCLD     netkey-tool
+  CCLD     piv-tool
+  CCLD     westcos-tool
+  CCLD     sc-hsm-tool
+  CCLD     dnie-tool
+  CCLD     gids-tool
+  CCLD     npa-tool
+  CCLD     sceac-example
+  CCLD     pkcs15-tool
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tools'
+ /usr/bin/mkdir -p '/usr/bin'
+ /usr/bin/mkdir -p '/usr/share/applications'
+ /usr/bin/mkdir -p '/usr/etc/xdg/autostart'
+  /bin/bash ../../libtool   --mode=install /usr/bin/install -c opensc-tool opensc-explorer opensc-notify pkcs15-tool pkcs15-crypt pkcs11-tool pkcs11-register cardos-tool eidenv openpgp-tool iasecc-tool egk-tool opensc-asn1 goid-tool cryptoflex-tool pkcs15-init netkey-tool piv-tool westcos-tool sc-hsm-tool dnie-tool gids-tool npa-tool '/usr/bin'
+ /usr/bin/install -c -m 644 pkcs11-register.desktop '/usr/etc/xdg/autostart'
+ /usr/bin/install -c -m 644 org.opensc.notify.desktop '/usr/share/applications'
+libtool: install: /usr/bin/install -c .libs/opensc-tool /usr/bin/opensc-tool
+libtool: install: /usr/bin/install -c .libs/opensc-explorer /usr/bin/opensc-explorer
+libtool: install: /usr/bin/install -c .libs/opensc-notify /usr/bin/opensc-notify
+libtool: install: /usr/bin/install -c .libs/pkcs15-tool /usr/bin/pkcs15-tool
+libtool: install: /usr/bin/install -c .libs/pkcs15-crypt /usr/bin/pkcs15-crypt
+libtool: install: /usr/bin/install -c .libs/pkcs11-tool /usr/bin/pkcs11-tool
+libtool: install: /usr/bin/install -c .libs/pkcs11-register /usr/bin/pkcs11-register
+libtool: install: /usr/bin/install -c .libs/cardos-tool /usr/bin/cardos-tool
+libtool: install: /usr/bin/install -c .libs/eidenv /usr/bin/eidenv
+libtool: install: /usr/bin/install -c .libs/openpgp-tool /usr/bin/openpgp-tool
+libtool: install: /usr/bin/install -c .libs/iasecc-tool /usr/bin/iasecc-tool
+libtool: install: /usr/bin/install -c .libs/egk-tool /usr/bin/egk-tool
+libtool: install: /usr/bin/install -c .libs/opensc-asn1 /usr/bin/opensc-asn1
+libtool: install: /usr/bin/install -c .libs/goid-tool /usr/bin/goid-tool
+libtool: install: /usr/bin/install -c .libs/cryptoflex-tool /usr/bin/cryptoflex-tool
+libtool: install: /usr/bin/install -c .libs/pkcs15-init /usr/bin/pkcs15-init
+libtool: install: /usr/bin/install -c .libs/netkey-tool /usr/bin/netkey-tool
+libtool: install: /usr/bin/install -c .libs/piv-tool /usr/bin/piv-tool
+libtool: install: /usr/bin/install -c .libs/westcos-tool /usr/bin/westcos-tool
+libtool: install: /usr/bin/install -c .libs/sc-hsm-tool /usr/bin/sc-hsm-tool
+libtool: install: /usr/bin/install -c .libs/dnie-tool /usr/bin/dnie-tool
+libtool: install: /usr/bin/install -c .libs/gids-tool /usr/bin/gids-tool
+libtool: install: /usr/bin/install -c .libs/npa-tool /usr/bin/npa-tool
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tools'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tools'
+Making install in minidriver
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/minidriver'
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/minidriver'
+make[3]: Nothing to be done for 'install-data-am'.
+make  install-exec-hook
+make[4]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/minidriver'
+make[4]: Nothing to be done for 'install-exec-hook'.
+make[4]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/minidriver'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/minidriver'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/minidriver'
+Making install in tests
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests'
+Making install in regression
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/regression'
+make[4]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/regression'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/regression'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/regression'
+Making install in p11test
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/p11test'
+make[4]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/p11test'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/p11test'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/p11test'
+Making install in fuzzing
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/fuzzing'
+  CC       fuzz_asn1_print.o
+  CC       fuzzer.o
+  CC       fuzz_asn1_sig_value.o
+  CC       fuzz_pkcs15_decode.o
+  CC       fuzzer_reader.o
+  CC       fuzz_pkcs15_reader.o
+  CC       fuzz_scconf_parse_string.o
+  CC       fuzz_pkcs15_encode.o
+  CC       fuzz_card.o
+  CC       fuzz_pkcs15_tool.o
+  CC       fuzzer_tool.o
+  CC       fuzz_pkcs15_crypt.o
+  CC       fuzz_pkcs15init.o
+  CC       fuzz_piv_tool.o
+  CCLD     fuzz_asn1_print
+  CCLD     fuzz_asn1_sig_value
+  CCLD     fuzz_pkcs15_decode
+  CCLD     fuzz_pkcs15_reader
+  CCLD     fuzz_scconf_parse_string
+  CCLD     fuzz_pkcs15_encode
+  CCLD     fuzz_card
+  CC       ../../tools/util.o
+  CCLD     fuzz_pkcs15_tool
+  CCLD     fuzz_pkcs15_crypt
+  CCLD     fuzz_piv_tool
+  CCLD     fuzz_pkcs15init
+make[4]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/fuzzing'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/fuzzing'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/fuzzing'
+Making install in unittests
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/unittests'
+make[4]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/unittests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/unittests'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests/unittests'
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests'
+  CC       base64.o
+  CC       sc-test.o
+  CC       lottery.o
+  CC       p15dump.o
+  CC       print.o
+  CC       pintest.o
+  CC       prngtest.o
+  CCLD     base64
+  CCLD     lottery
+  CCLD     prngtest
+  CCLD     p15dump
+  CCLD     pintest
+make[4]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/tests'
+Making install in smm
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/smm'
+  CC       smm-local.lo
+  CC       sm-global-platform.lo
+  CC       sm-cwa14890.lo
+  CC       sm-card-authentic.lo
+  CC       sm-card-iasecc.lo
+  CCLD     libsmm-local.la
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src/smm'
+make[3]: Nothing to be done for 'install-data-am'.
+ /usr/bin/mkdir -p '/usr/lib'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libsmm-local.la '/usr/lib'
+libtool: warning: relinking 'libsmm-local.la'
+libtool: install: (cd /home/admin/OpenSC-0.23.0-swissbit/src/smm; /bin/bash "/home/admin/OpenSC-0.23.0-swissbit/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Wno-unused-parameter -Werror -Wstrict-aliasing=2 -g -O2 -module -shared -no-undefined -version-info 8:1:0 -o libsmm-local.la -rpath /usr/lib smm-local.lo sm-global-platform.lo sm-cwa14890.lo sm-card-authentic.lo sm-card-iasecc.lo -lcrypto ../libopensc/libopensc.la ../../src/sm/libsm.la ../../src/libopensc/libopensc.la ../../src/common/libcompat.la )
+libtool: install: /usr/bin/install -c .libs/libsmm-local.so.8.0.1T /usr/lib/libsmm-local.so.8.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libsmm-local.so.8.0.1 libsmm-local.so.8 || { rm -f libsmm-local.so.8 && ln -s libsmm-local.so.8.0.1 libsmm-local.so.8; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libsmm-local.so.8.0.1 libsmm-local.so || { rm -f libsmm-local.so && ln -s libsmm-local.so.8.0.1 libsmm-local.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsmm-local.lai /usr/lib/libsmm-local.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/smm'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src/smm'
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src'
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src'
+make[1]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/src'
+Making install in win32
+make[1]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/win32'
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/win32'
+make[2]: Nothing to be done for 'install-data-am'.
+make  install-exec-hook
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/win32'
+make[3]: Nothing to be done for 'install-exec-hook'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/win32'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/win32'
+make[1]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/win32'
+Making install in doc
+make[1]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/doc'
+Making install in tools
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/doc/tools'
+  GEN      cardos-tool
+  GEN      cryptoflex-tool
+  GEN      dnie-tool
+  GEN      egk-tool
+  GEN      eidenv
+  GEN      gids-tool
+  GEN      goid-tool
+  GEN      iasecc-tool
+  GEN      netkey-tool
+  GEN      npa-tool
+  GEN      openpgp-tool
+  GEN      opensc-asn1
+  GEN      opensc-explorer
+  GEN      opensc-notify
+  GEN      opensc-tool
+  GEN      piv-tool
+  GEN      pkcs11-register
+  GEN      pkcs11-tool
+  GEN      pkcs15-crypt
+  GEN      pkcs15-init
+  GEN      pkcs15-tool
+  GEN      sc-hsm-tool
+  GEN      westcos-tool
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/doc/tools'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 cardos-tool cryptoflex-tool dnie-tool egk-tool eidenv gids-tool goid-tool iasecc-tool netkey-tool npa-tool openpgp-tool opensc-asn1 opensc-explorer opensc-notify opensc-tool piv-tool pkcs11-register pkcs11-tool pkcs15-crypt pkcs15-init pkcs15-tool sc-hsm-tool westcos-tool '/usr/share/bash-completion/completions'
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/doc/tools'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/doc/tools'
+Making install in files
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/doc/files'
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/doc/files'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/doc/files'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/doc/files'
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/doc'
+make[3]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/doc'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/doc'
+make[1]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/doc'
+Making install in MacOSX
+make[1]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/MacOSX'
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/MacOSX'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/MacOSX'
+make[1]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/MacOSX'
+Making install in tests
+make[1]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/tests'
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/tests'
+make[1]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit/tests'
+make[1]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit'
+make[2]: Entering directory '/home/admin/OpenSC-0.23.0-swissbit'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/doc/opensc'
+ /usr/bin/install -c -m 644 NEWS '/usr/share/doc/opensc'
+make[2]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit'
+make[1]: Leaving directory '/home/admin/OpenSC-0.23.0-swissbit'
+admin@hmipiprod1:~/OpenSC-0.23.0-swissbit $ systemctl status pcscd
+● pcscd.service - PC/SC Smart Card Daemon
+     Loaded: loaded (/lib/systemd/system/pcscd.service; indirect; vendor preset: enabled)
+     Active: inactive (dead)
+TriggeredBy: ● pcscd.socket
+       Docs: man:pcscd(8)

@@ -1,0 +1,102 @@
+admin@hmipidev15:~/devid_raspi/ishield/python/bash $ export OPENSC_DEBUG=2
+admin@hmipidev15:~/devid_raspi/ishield/python/bash $ /usr/bin/pkcs11-tool --module /usr/lib/opensc-pkcs11.so --keypairgen --id "9" --label "setup_test_9" --key-type rsa:2048 --login --verbose
+P:419657; T:0x548651573056 06:46:33.396 [opensc-pkcs11] card.c:254:sc_connect_card: called
+P:419657; T:0x548651573056 06:46:33.398 [opensc-pkcs11] card-entersafe.c:138:entersafe_match_card: called
+P:419657; T:0x548651573056 06:46:33.399 [opensc-pkcs11] card-rutoken.c:103:rutoken_match_card: called
+P:419657; T:0x548651573056 06:46:33.399 [opensc-pkcs11] card-idprime.c:362:idprime_match_card: called
+P:419657; T:0x548651573056 06:46:33.399 [opensc-pkcs11] card-coolkey.c:2266:coolkey_match_card: called
+P:419657; T:0x548651573056 06:46:33.399 [opensc-pkcs11] card-coolkey.c:917:coolkey_apdu_io: called
+P:419657; T:0x548651573056 06:46:33.400 [opensc-pkcs11] card-coolkey.c:2411:coolkey_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.422 [opensc-pkcs11] card-muscle.c:843:muscle_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.436 [opensc-pkcs11] muscle.c:274:msc_select_applet: returning with: -1200 (Card command failed)
+P:419657; T:0x548651573056 06:46:33.476 [opensc-pkcs11] card-piv.c:3767:piv_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.477 [opensc-pkcs11] card-piv.c:3771:piv_card_reader_lock_obtained: PIV_STATE_MATCH
+P:419657; T:0x548651573056 06:46:33.477 [opensc-pkcs11] card-piv.c:2739:piv_find_discovery: called
+P:419657; T:0x548651573056 06:46:33.477 [opensc-pkcs11] card-piv.c:932:piv_get_cached_data: called
+P:419657; T:0x548651573056 06:46:33.477 [opensc-pkcs11] card-piv.c:854:piv_get_data: called
+P:419657; T:0x548651573056 06:46:33.478 [opensc-pkcs11] card-piv.c:502:piv_general_io: called
+P:419657; T:0x548651573056 06:46:33.489 [opensc-pkcs11] card-piv.c:702:piv_find_aid: called
+P:419657; T:0x548651573056 06:46:33.515 [opensc-pkcs11] card-piv.c:3007:piv_finish: called
+P:419657; T:0x548651573056 06:46:33.515 [opensc-pkcs11] card-cac.c:1833:cac_match_card: called
+P:419657; T:0x548651573056 06:46:33.516 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.516 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a000000116db00::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.516 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.530 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.530 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000791000::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.531 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.545 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.545 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790100::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.546 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.560 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.560 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790101::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.561 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.575 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.575 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790102::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.576 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.590 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.590 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790103::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.591 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.604 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.605 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790104::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.605 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.619 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.619 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790105::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.620 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.634 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.634 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790106::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.635 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.649 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.650 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790107::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.650 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.664 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.665 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790108::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.665 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.679 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.679 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a0000000790109::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.680 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.694 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.694 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a000000079010a::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.695 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.709 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.709 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a000000079010b::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.710 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.724 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.724 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a000000079010c::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.725 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.739 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.739 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a000000079010d::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.740 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.754 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.754 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a000000079010e::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.755 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.769 [opensc-pkcs11] card-cac.c:1067:cac_select_file_by_type: called
+P:419657; T:0x548651573056 06:46:33.769 [opensc-pkcs11] card-cac.c:1073:cac_select_file_by_type: path=a000000079010f::, path->value= path->type=1 (1)
+P:419657; T:0x548651573056 06:46:33.769 [opensc-pkcs11] card-cac.c:1078:cac_select_file_by_type: file_out=(nil) index=0 count=0
+P:419657; T:0x548651573056 06:46:33.783 [opensc-pkcs11] card-itacns.c:162:itacns_match_card: Matching 3b against atr[0] == 3b
+P:419657; T:0x548651573056 06:46:33.783 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.795 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.807 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.820 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.838 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.919 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:33.961 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.036 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.113 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.169 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.226 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.284 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.341 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.400 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.460 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+Using slot 0 with a present token (0x0)
+P:419657; T:0x548651573056 06:46:34.525 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:46:34.526 [opensc-pkcs11] sec.c:259:sc_pin_cmd: returning with: -1408 (Not supported)
+Logging in to "JavaCard isoApplet (User PIN)".
+Please enter User PIN:
+P:419657; T:0x548651573056 06:47:06.340 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:47:06.385 [opensc-pkcs11] sec.c:259:sc_pin_cmd: returning with: 0 (Success)
+P:419657; T:0x548651573056 06:47:06.386 [opensc-pkcs11] card-isoApplet.c:1245:isoApplet_card_reader_lock_obtained: called
+P:419657; T:0x548651573056 06:47:06.472 [opensc-pkcs11] sec.c:259:sc_pin_cmd: returning with: 0 (Success)
+P:419657; T:0x548651573056 06:47:16.852 [opensc-pkcs11] ctx.c:930:sc_release_context: called
+error: PKCS11 function C_GenerateKeyPair failed: rv = CKR_GENERAL_ERROR (0x5)
+Aborting.
